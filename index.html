@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sai-prasad-personal portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/img/my-avatar.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img
+            src="https://res.cloudinary.com/dfwxtlwwp/image/upload/v1745736385/WhatsApp_Image_2025-04-27_at_11.56.36_c0bbe83e_vmbzee.jpg"
+            alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Muthyapawr Sai Prasad">Muthyapwar<br> Sai Prasad</h1>
+
+          <p class="title">Full Stack Agentic - AI developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <i class="fa-solid fa-angle-down" style="color: #FFD43B;"></i>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <i class="fa-solid fa-envelope" style="color: #FFD43B;"></i>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:saimuthyapwar123@gmail.com" class="contact-link">saimuthyapwar123@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 7499368254" class="contact-link">+91 7499368254</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <i class="fa-solid fa-calendar-days" style="color: #FFD43B;"></i>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">December 19, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <i class="fa-solid fa-location-dot" style="color: #FFD43B;"></i>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Hyderabad</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/saimuthyapwar123" class="social-link">
+              <i class="fa-brands fa-github" style="color: #949494;"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/muthyapwar-sai-prasad-442a07232/" class="social-link">
+              <i class="fa-brands fa-linkedin" style="color: #949494;"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/mr_prasad__18/?next=%2F" class="social-link">
+              <i class="fa-brands fa-instagram" style="color: #949494;"></i>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Experience</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certificates</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <h1>Hello!</h1><br>
+          <p>
+            Welcome to my portfolio! I’m Muthyapwar Sai Prasad, a Full Stack Agentic AI Developer based in Hyderabad.
+            As
+            an entry‑level professional, I combine frontend expertise in HTML, CSS, JavaScript.js with
+            backend development using Python, FastAPI, LLMs and MongoDB. I’ve built Fast APIs and responsive user interfaces,
+            ensuring seamless UX and robust system architecture.
+          </p>
+
+          <p>
+            Driven by a passion for Agentic AI, I integrate OpenAI GPT‑4 and other LLMs to create autonomous agents that
+            plan, execute, and adapt through multi‑step workflows. From GPT‑4–powered chatbots to intelligent automation
+            pipelines, my projects demonstrate cutting‑edge innovation. With strong problem‑solving skills and a growth
+            mindset, I’m ready to contribute to company‑based tech teams developing smart, scalable software solutions.
+          </p>
+        </section>
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+            </button>
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+      <!--
+        - #Education
+      -->
+
+      <article class="resume" data-page="education">
+
+        <header>
+          <h2 class="h2 article-title">Education</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <i class="fa-solid fa-book-open" style="color: #FFD43B;"></i>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sri Indu College Of Engineering and Technology,Hydrabad</h4>
+
+              <span>Bachelor's of Technology (2020 — 2024)</span>
+
+              <p class="timeline-text">
+                I hold a Bachelor of Technology degree in Civil
+                Engineering from Sri Indu College of Engineering and Technology, completed in 2024. My
+                academic journey provided me with a strong foundation in problem-solving, analytical
+                thinking, and technical skills, which I am now channeling into my career as a software
+                engineer.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Narayana Junior College,Hydrabad</h4>
+
+              <span>Intermediate Education Board (2018 — 2020)</span>
+
+              <p class="timeline-text">
+                I completed my Intermediate education with a focus on
+                Mathematics, Physics, and Chemistry (MPC) at Narayana Junior College, achieving an
+                impressive score of 967 out of 1000. This academic experience honed my quantitative and
+                analytical skills, laying a strong foundation for my technical pursuits and passion for
+                problem-solving.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Krishnaveni Talent School,Adilabad (T.S)</h4>
+
+              <span>Secondary School Of Education (2018)</span>
+
+              <p class="timeline-text">
+                I completed my Secondary School Certificate (SSC) at
+                Krishnaveni Talent School, achieving a CGPA of 8.7 out of 10. My time at Krishnaveni Talent
+                School laid the groundwork for my strong academic performance and nurtured my passion for
+                learning. This achievement reflects my dedication, discipline, and consistent effort, which
+                continue to drive me in my professional journey.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- Skills -->
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HyperText Markup Language (HTML5)</h5>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cascading Style Sheets (CSS)</h5>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">FastAPI</h5>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Large Language Model (LLM)</h5>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">OpenAI</h5>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MongoDB</h5>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - # Experience
+      -->
+
+      <article class="experience" data-page="experience">
+
+        <header>
+          <h2 class="h2 article-title">Experience</h2>
+        </header>
+
+        <section class="experience">
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box"><i class="fas fa-briefcase" style="color: #FFD43B;"></i></div>
+              <h3 class="h3">Professional Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Zennial Pro Private Ltd</h4>
+                <h3><span><b>Associate Software Engineer</b></span></h3>
+                <span>Nov 2024 — Present</span>
+                <h4>Front‑End Development (HTML & CSS) :</h4>
+                <p class="timeline-text">
+                  Developed my property templet with crafted responsive, web pages using semantic HTML5 and CSS3
+                  (Flexbox, Grid). Collaborated with designers to translate mockups into clean, maintainable code.
+                  Ensured cross‑browser compatibility and optimized styling for fast load times, enhancing user
+                  experience and interface consistency.</p>
+                <h4>Agentic-AI: Currency Converter API (Python, FastAPI) :</h4>
+                <p class="timeline-text">
+                  Developed a FastAPI-based currency converter microservice in Python, integrating external
+                  exchange-rate APIs. Designed endpoints with input validation using Pydantic and documented/tested all
+                  routes in Postman. Delivered a reliable, fully tested service ideal for financial workflows and
+                  integrations.</p>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">ACADEMOR (Intern)</h4>
+                <span>2023</span>
+                <p class="timeline-text">
+                  I completed an internship as a Front-End Developer at Academor, where I mastered front-end development
+                  skills and successfully created responsive web pages, showcasing my ability to deliver engaging and
+                  user-friendly designs.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Certificates / Projects
+      -->
+
+      <article class="certificates" data-page="certificates">
+
+        <header>
+          <h2 class="h4 article-title">Certificates / Projects</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Certificates</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Projects</button>
+            </li>
+
+          </ul>
+
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+
+            </button>
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Certificates</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Projects</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="projects">
+              <a href="https://github.com/saimuthyapwar123/wheather">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="fa-solid fa-eye" style="color: #FFD43B;"></i>
+                  </div>
+
+                  <img
+                    src="https://res.cloudinary.com/dfwxtlwwp/image/upload/v1745740665/WhatsApp_Image_2025-04-27_at_13.26.15_c6134d64_gorqd0.jpg"
+                    alt="Weather Forecaster" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Weather Forecaster</h3>
+
+                <p class="project-category">Project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="projects">
+              <a href="https://github.com/saimuthyapwar123/my_property">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="fa-solid fa-eye" style="color: #FFD43B;"></i>
+                  </div>
+
+                  <img
+                    src="https://res.cloudinary.com/djb7vj4gh/image/upload/v1752645667/my_property_lvjl4l.jpg"
+                    alt="my_property" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">my property</h3>
+
+                <p class="project-category">Project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="projects">
+              <a href="https://github.com/saimuthyapwar123/currency_converter#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="fa-solid fa-eye" style="color: #FFD43B;"></i>
+                  </div>
+
+                  <img
+                    src="https://res.cloudinary.com/djb7vj4gh/image/upload/v1752647670/currency_converter_depqog.jpg"
+                    alt="my_property" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Currency Converter</h3>
+
+                <p class="project-category">Project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="certificates">
+              <a href="./assets/certificate/MUTHYAPWAR_SAI_PRASAD_acadomer.pdf">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="fa-solid fa-eye" style="color: #FFD43B;"></i>
+                  </div>
+                  <img src="https://res.cloudinary.com/djb7vj4gh/image/upload/v1752647885/MUTHYAPWAR_SAI_PRASAD_acadomer_ugz7ww.jpg" alt="certificate" loading="lazy">
+                </figure>
+                <h3 class="project-title">ACADEMOR-(Intern) Certificate</h3>
+                <p class="project-category">Certificate</p>
+              </a>
+            </li>
+            
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="20d41a0129@gmail.com" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" enabled data-form-btn>
+              <i class="fa-solid fa-paper-plane" style="color: #FFD43B;"></i>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
